@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <div class="title">
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for your time</p>
+        </div>
+        <div class="form">
+            <form id="survey-form">
+                <!-- Name -->
+                <div class="input">
+                    <label for="name" class="block" id="name-label">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <!-- Email -->
+                <div class="input">
+                    <label for="email" class="block" id="email-label">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <!-- Age -->
+                <div class="input">
+                    <label for="number-" class="block" id="number-label">Age</label>
+                    <input type="number" name="number" id="number" placeholder="Enter your age" min="0" max="99" required>
+                </div>
+                <!-- Education -->
+                <div class="input">
+                    <label for="dropdown" class="block">Education level</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="dropout">High School Dropout</option>
+                        <option value="highschool">High School Degree</option>
+                        <option value="bachelor">Bachelor's Degree</option>
+                        <option value="master">Master's Degree</option>
+                        <option value="nothing">Prefer Not To Say</option>
+                    </select>
+                </div>
+                <!-- Find us -->
+                <div class="input">
+                    <label for="heard" class="block2">How did you found about us?</label>
+                    <br>
+                    <input type="radio" name="heard" id="facebook" value="facebook" checked>
+                    <label for="facebook">Facebook</label>
+                    <br>
+                    <input type="radio" name="heard" id="magazine" value="magazine">
+                    <label for="magazine">Magazine</label>
+                    <br>
+                    <input type="radio" name="heard" id="friend" value="friend">
+                    <label for="friend">Friend</label>
+                    <br>
+                </div>
+                <!-- Improvements -->
+                <div class="input">
+                    <label for="improvements" class="block2">What do you like to see improved? <small>(check all that apply)</small></label>
+                    <br>
+                    <input type="checkbox" name="service" id="service" value="Customer-Service">
+                    <label for="service">Customer Service</label>
+                    <br>
+                    <input type="checkbox" name="price" id="price" value="Prices">
+                    <label for="price">Prices</label>
+                    <br>
+                    <input type="checkbox" name="tables" id="tables" value="Bigger-Tables">
+                    <label for="tables">Bigger Tables</label>
+                    <br>
+                </div>
+                <!-- Comments -->
+                <div class="input">
+                    <label for="comments" class="block2 extra">Any comments or suggestions?</label>
+                    <br>
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+                </div>
+                <!-- Submit -->
+                <div class="input">
+                    <input type="submit" value="Submit" class="width" id="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

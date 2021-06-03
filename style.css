@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url('https://www.ittechglobalservices.com/images/Hi-Tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    background-color: #01579b;
+    opacity: 0.9;
+    width: 80vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    margin: 20px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 90.5%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#name, #email, #number {
+    width: 88%;
+    display: block;
+    margin: auto;
+}
+
+select, .width {
+    display: block;
+    width: 91%;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin-left: 4.5%;
+}
+
+.block {
+    display: block;
+    margin-bottom: 8px;
+    padding-left: 4.5%;
+}
+
+.block2 {
+    padding-left: 4.5%;
+}
+
+input[type=text], input[type=email], input[type=number], select, input[type=submit] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+.extra {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+select {
+    color: #767676;
+}
+
